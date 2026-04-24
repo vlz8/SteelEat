@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free Media Downloader</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div class="page">
+    <div class="brand">
+      <h1>Steel<em>Eat</em></h1>
+      <p>Free media downloader</p>
+    </div>
+
+    <textarea id="urls" placeholder="Paste URL  ..." rows="2"></textarea>
+
+    <div class="controls">
+      <div class="pill-group">
+        <button class="pill active" data-format="video" onclick="setFormat(this)">MP4</button>
+        <button class="pill" data-format="audio" onclick="setFormat(this)">MP3</button>
+      </div>
+      <button class="fetch-btn" id="goBtn" onclick="go()">Gol</button>
+    </div>
+
+    <div id="cards" class="cards"></div>
+
+    <div class="footer">
+      YouTube &middot; TikTok &middot; Instagram &middot; Twitter/X &middot; Reddit &middot; Facebook<br>
+      Vimeo &middot; Twitch &middot; Dailymotion &middot; SoundCloud &middot; Loom &middot; Streamable<br>
+      Pinterest &middot; Tumblr &middot; Threads &middot; LinkedIn &middot; 1000+ more
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
