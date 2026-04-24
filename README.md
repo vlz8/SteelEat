@@ -1,6 +1,6 @@
 # SteelEat
 
-A self-hosted, open-source video and audio downloader with a clean web UI. Paste links from YouTube, TikTok, Instagram, Twitter/X, and 1000+ other sites — download as MP4 or MP3.
+A self-hosted, open-source video and audio downloader with a clean web UI developed with Python, JavaScript, HTML, CSS. Paste links from YouTube, TikTok, Instagram, Twitter/X, and 1000+ other sites and download as MP4 or MP3.
 
 ## Features
 
@@ -13,9 +13,9 @@ A self-hosted, open-source video and audio downloader with a clean web UI. Paste
 ## Quick Start
 
 ```bash
-pip install -r requirements.txt
 git clone https://github.com/vlz8/SteelEat.git
 cd SteelEat
+pip install -r requirements.txt
 python app.py
 ```
 
@@ -30,7 +30,7 @@ docker run -p 8899:8899 steel-eat
 
 ## Usage
 
-1. Paste one or more video URLs into the input box
+1. Paste one video URL into the input box
 2. Choose **MP4** (video) or **MP3** (audio)
 3. Click **Fetch** to load video info and thumbnail
 4. Click **Download**
