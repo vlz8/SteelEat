@@ -10,24 +10,6 @@ A self-hosted, open-source video and audio downloader with a clean web UI develo
 - Clean, responsive UI — no frameworks, no build step
 - Single Python file backend
 
-## Quick Start
-
-```bash
-git clone https://github.com/vlz8/SteelEat.git
-cd SteelEat
-pip install -r requirements.txt
-python app.py
-```
-
-Open **http://localhost:8899**.
-
-Or with Docker:
-
-```bash
-docker build -t steel-eat .
-docker run -p 8899:8899 steel-eat
-```
-
 ## Usage
 
 1. Paste one video URL into the input box
