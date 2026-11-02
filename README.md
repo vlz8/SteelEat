@@ -1,4 +1,4 @@
-# SteelEat
+# StealIt
 
 A self-hosted, open-source video and audio downloader with a clean web UI developed with Python, JavaScript, HTML, CSS. Paste links from YouTube, TikTok, Instagram, Twitter/X, and 1000+ other sites and download as MP4 or MP3.
 
